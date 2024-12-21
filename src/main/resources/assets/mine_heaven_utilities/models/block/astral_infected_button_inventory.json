@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "mine_heaven_utilities:blocks/astral_infected_planks"
+  }
+}

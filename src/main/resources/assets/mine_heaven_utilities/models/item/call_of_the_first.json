@@ -1,0 +1,7 @@
+{
+  "parent": "mine_heaven_utilities:custom/gloomsteel_katana",
+  "textures": {
+    "0": "mine_heaven_utilities:blocks/gloomsteel_katana",
+    "particle": "mine_heaven_utilities:items/iekuriekoriekrieap"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "mine_heaven_utilities:blocks/astral_infected_planks",
+    "particle": "mine_heaven_utilities:blocks/astral_infected_planks"
+  }
+}

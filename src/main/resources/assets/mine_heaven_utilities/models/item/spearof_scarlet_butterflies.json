@@ -1,0 +1,7 @@
+{
+  "parent": "mine_heaven_utilities:custom/staff_of_homa",
+  "textures": {
+    "0": "mine_heaven_utilities:blocks/staff_of_homa",
+    "particle": "mine_heaven_utilities:items/ielalklap"
+  }
+}

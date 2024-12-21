@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mine_heaven_utilities:block/astral_infected_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mine_heaven_utilities:block/astral_infected_log"
+    },
+    "axis=z": {
+      "model": "mine_heaven_utilities:block/astral_infected_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Susano Arrmor",
+    "keyBindingCategoryKey": "mineheaven_admin",
+    "onKeyPressed": {
+      "name": "SusanoArrmorPriNazhatiiKlavishi"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Bury The Light",
+    "texture": "fryjfjfjfhj",
+    "description": "POWER!",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:bury_the_light"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

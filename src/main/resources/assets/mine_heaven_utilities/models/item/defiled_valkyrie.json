@@ -1,0 +1,8 @@
+{
+  "parent": "mine_heaven_utilities:custom/valhakyra",
+  "textures": {
+    "2": "mine_heaven_utilities:blocks/regegeg",
+    "3": "mine_heaven_utilities:blocks/thrhrthrtthrhr",
+    "particle": "mine_heaven_utilities:items/ierururur"
+  }
+}

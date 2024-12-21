@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "drfhrsdhdrhjr",
+    "customModelName": "crescentrose:default",
+    "name": "Crescent Rose",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 0.7999999999999999,
+    "enchantability": 100,
+    "damageVsEntity": 10.0,
+    "usageCount": 100100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CrescentRoseKoghdaZhivaiaSushchnostPopadaietSPomoshchiuInstrumienta"
+    }
+  }
+}

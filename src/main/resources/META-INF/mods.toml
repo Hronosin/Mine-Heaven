@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="mine_heaven_utilities"
+version="1.0.0"
+displayName="Mine Heaven Utilities"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="iissa, MCreator"
+
+[[dependencies.mine_heaven_utilities]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

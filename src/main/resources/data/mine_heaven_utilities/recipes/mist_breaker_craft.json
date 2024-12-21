@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mine_heaven_utilities:astral_infected_log"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "mine_heaven_utilities:astral_infected_log"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "mine_heaven_utilities:mist_breaker",
+    "count": 1
+  }
+}

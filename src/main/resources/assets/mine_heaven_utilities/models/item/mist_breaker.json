@@ -1,0 +1,7 @@
+{
+  "parent": "mine_heaven_utilities:custom/mistsplitter_reforged",
+  "textures": {
+    "0": "mine_heaven_utilities:blocks/mistsplitter_reforged",
+    "particle": "mine_heaven_utilities:items/ruujrjrfj"
+  }
+}

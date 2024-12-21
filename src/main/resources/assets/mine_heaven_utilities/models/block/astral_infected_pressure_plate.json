@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "mine_heaven_utilities:blocks/astral_infected_planks"
+  }
+}

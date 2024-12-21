@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    }
+  ],
+  "result": {
+    "item": "mine_heaven_utilities:astral_infected_button",
+    "count": 1
+  }
+}

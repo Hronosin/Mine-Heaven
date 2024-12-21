@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NecronCore"
+    },
+    "name": "necron_core_cratf",
+    "namespace": "mod"
+  }
+}

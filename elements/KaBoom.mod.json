@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "KaBoom",
+    "keyBindingCategoryKey": "mineheaven_admin",
+    "onKeyPressed": {
+      "name": "KaBoomPriNazhatiiKlavishi"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "mine_heaven_utilities:uchiha_symbol_broken"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "mine_heaven_utilities:uchihasymbol",
+    "count": 1
+  }
+}

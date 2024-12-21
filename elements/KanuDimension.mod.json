@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Astralinfection"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "fluidBlock": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "airColor": {
+      "value": -103,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Kanu Dimension Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrescentRose"
+    },
+    "name": "crescent_rose_craft",
+    "namespace": "mod"
+  }
+}

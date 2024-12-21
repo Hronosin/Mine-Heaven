@@ -1,0 +1,29 @@
+{
+  "dancin": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mine_heaven_utilities:aaron-smith-dancin-mp3",
+        "stream": true
+      }
+    ]
+  },
+  "bury_the_light": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mine_heaven_utilities:casey-edwards-",
+        "stream": true
+      }
+    ]
+  },
+  "sweater_weather": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mine_heaven_utilities:the-neighbourhood-sweater-weather",
+        "stream": true
+      }
+    ]
+  }
+}

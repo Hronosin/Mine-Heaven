@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F17",
+    "keyBindingName": "Orb Of Destroy",
+    "keyBindingCategoryKey": "mineheaven_admin",
+    "onKeyPressed": {
+      "name": "OrbOfDestroyPriNazhatiiKlavishi"
+    }
+  }
+}

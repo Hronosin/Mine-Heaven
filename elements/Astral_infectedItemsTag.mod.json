@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Astral_infectedWood"
+      },
+      {
+        "value": "CUSTOM:Astral_infectedLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "astral_infected_log",
+    "namespace": "forge"
+  }
+}

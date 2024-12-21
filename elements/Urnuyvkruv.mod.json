@@ -1,0 +1,40 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "necron_leggings",
+    "customModelName": "Normal",
+    "name": "Amaterasu",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.NETHER_STAR"
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": true,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.BLAZE_POWDER"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "UrnuyvkruvKoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

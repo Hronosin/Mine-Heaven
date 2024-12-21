@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "fjyjfjr",
+    "customModelName": "kaguras_verity:default",
+    "name": "Seed Of The World",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 15,
+    "efficiency": 25.0,
+    "attackSpeed": 1.0,
+    "enchantability": 600,
+    "damageVsEntity": 5.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

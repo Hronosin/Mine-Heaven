@@ -1,0 +1,7 @@
+{
+  "parent": "mine_heaven_utilities:custom/kaguras_verity",
+  "textures": {
+    "0": "mine_heaven_utilities:blocks/kaguras_verity",
+    "particle": "mine_heaven_utilities:items/fjyjfjr"
+  }
+}

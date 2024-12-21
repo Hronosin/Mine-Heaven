@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Sweater Weather",
+    "texture": "urukrkuvr",
+    "description": "Converted for Mine Heaven",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:sweater_weather"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 8
+  }
+}

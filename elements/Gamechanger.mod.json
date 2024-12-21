@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "U",
+    "keyBindingName": "Game changer",
+    "keyBindingCategoryKey": "mineheaven_admin",
+    "onKeyPressed": {
+      "name": "GamechangerPriNazhatiiKlavishi"
+    }
+  }
+}

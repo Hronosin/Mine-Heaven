@@ -1,0 +1,82 @@
+{
+  "_fv": 39,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "astral_head",
+    "enableBody": true,
+    "textureBody": "astral_body",
+    "enableLeggings": true,
+    "textureLeggings": "astral_leggings",
+    "enableBoots": true,
+    "textureBoots": "astral_boots",
+    "onHelmetTick": {
+      "name": "AstralArmorSobytiieTaktovShliema"
+    },
+    "onBodyTick": {
+      "name": "AstralArmorSobytiieTaktovShliema"
+    },
+    "onLeggingsTick": {
+      "name": "AstralArmorSobytiieTaktovShliema"
+    },
+    "onBootsTick": {
+      "name": "AstralArmorSobytiieTaktovShliema"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "astral",
+    "helmetName": "Astral Helmet",
+    "bodyName": "Astral Chestplate",
+    "leggingsName": "Astral Leggings",
+    "bootsName": "Astral Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 50,
+    "damageValueHelmet": 14,
+    "damageValueBody": 32,
+    "damageValueLeggings": 23,
+    "damageValueBoots": 14,
+    "enchantability": 100,
+    "toughness": 5.0,
+    "knockbackResistance": 2.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Astral_infectedWood"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "mine_heaven_utilities:custom/beelzebub",
+  "textures": {
+    "4": "mine_heaven_utilities:blocks/5",
+    "5": "mine_heaven_utilities:blocks/4",
+    "6": "mine_heaven_utilities:blocks/3",
+    "8": "mine_heaven_utilities:blocks/2",
+    "9": "mine_heaven_utilities:blocks/1",
+    "particle": "mine_heaven_utilities:items/aorvovo"
+  }
+}

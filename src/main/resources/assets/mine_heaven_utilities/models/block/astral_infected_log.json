@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mine_heaven_utilities:blocks/astral_infected_log_top",
+    "up": "mine_heaven_utilities:blocks/astral_infected_log_top",
+    "north": "mine_heaven_utilities:blocks/astral_infected_log_side",
+    "east": "mine_heaven_utilities:blocks/astral_infected_log_side",
+    "south": "mine_heaven_utilities:blocks/astral_infected_log_side",
+    "west": "mine_heaven_utilities:blocks/astral_infected_log_side",
+    "particle": "mine_heaven_utilities:blocks/astral_infected_log_top"
+  }
+}

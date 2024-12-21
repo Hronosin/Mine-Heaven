@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mine_heaven_utilities:items/necron_body"
+  }
+}

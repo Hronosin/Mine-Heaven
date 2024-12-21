@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "mine_heaven_utilities:blocks/astral_infected_planks"
+  }
+}

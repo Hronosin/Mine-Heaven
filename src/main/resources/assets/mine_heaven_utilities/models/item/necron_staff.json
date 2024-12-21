@@ -1,0 +1,7 @@
+{
+  "parent": "mine_heaven_utilities:custom/necron",
+  "textures": {
+    "0": "mine_heaven_utilities:blocks/texture",
+    "particle": "mine_heaven_utilities:items/wetgwestgwsgs"
+  }
+}

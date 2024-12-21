@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "3": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "4": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "6": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "7": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "8": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    }
+  },
+  "result": {
+    "item": "mine_heaven_utilities:astral_infected_stairs",
+    "count": 4
+  }
+}

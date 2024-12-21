@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:astral_infected_log"
+    }
+  ],
+  "result": {
+    "item": "mine_heaven_utilities:astral_infected_planks",
+    "count": 4
+  }
+}

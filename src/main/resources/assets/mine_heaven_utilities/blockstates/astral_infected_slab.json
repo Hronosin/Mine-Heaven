@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mine_heaven_utilities:block/astral_infected_slab"
+    },
+    "type=top": {
+      "model": "mine_heaven_utilities:block/astral_infected_slab_top"
+    },
+    "type=double": {
+      "model": "mine_heaven_utilities:block/astral_infected_slab_full"
+    }
+  }
+}

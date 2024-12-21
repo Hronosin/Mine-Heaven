@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.CLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.DEBUG_STICK"
+    },
+    "name": "debug_stick",
+    "namespace": "mod"
+  }
+}

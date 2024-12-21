@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "mine_heaven_utilities:necron_core"
+  },
+  "result": {
+    "item": "mine_heaven_utilities:necron_armor_leggings"
+  }
+}

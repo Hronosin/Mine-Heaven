@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Astral_infectedWood"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:Astral_infectedWood"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "Items.DIAMOND_CHESTPLATE"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:Astral_infectedWood"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:Astral_infectedWood"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AstralArmor.body"
+    },
+    "name": "astral_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

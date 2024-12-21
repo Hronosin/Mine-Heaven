@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Dancin",
+    "texture": "er5yhhrththrr",
+    "description": "Relax",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:dancin"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

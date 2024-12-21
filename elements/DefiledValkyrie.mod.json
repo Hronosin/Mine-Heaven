@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "ierururur",
+    "customModelName": "valhakyra:default",
+    "name": "Defiled Valkyrie",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 8,
+    "efficiency": 16.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 84,
+    "damageVsEntity": 10.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "DefiledValkyriePriNazhatiiPravoiKnopkoiMyshi"
+    },
+    "onEntityHitWith": {
+      "name": "DefiledValkyrieKoghdaZhivaiaSushchnostPopadaietSPomoshchiuInstrumienta"
+    }
+  }
+}

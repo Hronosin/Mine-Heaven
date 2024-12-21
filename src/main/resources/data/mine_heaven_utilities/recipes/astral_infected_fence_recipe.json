@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "3": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "mine_heaven_utilities:astral_infected_planks"
+    }
+  },
+  "result": {
+    "item": "mine_heaven_utilities:astral_infected_fence",
+    "count": 3
+  }
+}

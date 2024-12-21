@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Suicide Mark",
+    "icon": "5756ur6ur6.png",
+    "color": {
+      "value": -39322,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "SuicideMarkKazhdyiTikVoVriemiaEffiekta"
+    },
+    "onExpired": {
+      "name": "SuicideMarkKoghdaEffiektZakanchivaietsia"
+    }
+  }
+}

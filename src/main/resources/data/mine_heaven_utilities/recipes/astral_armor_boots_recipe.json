@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mine_heaven_utilities:astral_infected_wood"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "mine_heaven_utilities:astral_infected_wood"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "mine_heaven_utilities:astral_infected_wood"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "mine_heaven_utilities:astral_infected_wood"
+    }
+  ],
+  "result": {
+    "item": "mine_heaven_utilities:astral_armor_boots",
+    "count": 1
+  }
+}

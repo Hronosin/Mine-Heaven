@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Astral_infectedLog"
+      },
+      {
+        "value": "CUSTOM:Astral_infectedLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Astral_infectedLog"
+      },
+      {
+        "value": "CUSTOM:Astral_infectedLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Astral_infectedWood"
+    },
+    "name": "astral_infected_wood_recipe",
+    "namespace": "mod"
+  }
+}
