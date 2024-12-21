@@ -71,7 +71,7 @@ public class BeelzebubEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		BeelzebubKoghdaSnariadPopadaietVSushchnostProcedure.execute(entityHitResult.getEntity());
+		BeelzebubKoghdaSnariadPopadaietVSushchnostProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity());
 	}
 
 	@Override
