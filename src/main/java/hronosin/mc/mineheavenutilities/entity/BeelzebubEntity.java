@@ -77,13 +77,13 @@ public class BeelzebubEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		BeelzebubKoghdaSnariadPriziemliaietsiaNaBlokProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		BeelzebubKoghdaSnariadPriziemliaietsiaNaBlokProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this.getOwner());
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		BeelzebubKoghdaSnariadLietitTaktProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+		BeelzebubKoghdaSnariadLietitTaktProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this.getOwner());
 		if (this.inGround)
 			this.discard();
 	}

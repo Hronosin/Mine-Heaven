@@ -19,8 +19,8 @@
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
-    "hasGlow": false,
-    "animation": "crossbow",
+    "hasGlow": true,
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "onRangedItemUsed": {

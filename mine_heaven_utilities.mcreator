@@ -1924,6 +1924,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -1989,6 +1993,10 @@
           "src/main/java/hronosin/mc/mineheavenutilities/procedures/BeelzebubKoghdaSnariadPriziemliaietsiaNaBlokProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
