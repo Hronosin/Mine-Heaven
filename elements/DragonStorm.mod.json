@@ -2,9 +2,9 @@
   "_fv": 39,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "uru",
-    "customModelName": "Normal",
+    "customModelName": "nailgun:default",
     "name": "Dragon Storm",
     "specialInfo": [],
     "creativeTab": {
@@ -12,7 +12,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": ""
+      "value": "Items.MAGMA_CREAM"
     },
     "shootConstantly": true,
     "usageCount": 0,

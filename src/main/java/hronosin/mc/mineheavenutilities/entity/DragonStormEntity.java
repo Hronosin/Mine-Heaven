@@ -58,7 +58,7 @@ public class DragonStormEntity extends AbstractArrow implements ItemSupplier {
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return ItemStack.EMPTY;
+		return new ItemStack(Items.MAGMA_CREAM);
 	}
 
 	@Override

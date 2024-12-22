@@ -36,7 +36,7 @@ public class DragonStormKoghdaSnariadLietitTaktProcedure {
 			}
 
 			private void run() {
-				for (int index0 = 0; index0 < (int) (4); index0++) {
+				for (int index0 = 0; index0 < (int) (2); index0++) {
 					{
 						Entity _shootFrom = entity;
 						Level projectileLevel = _shootFrom.level;
@@ -50,6 +50,6 @@ public class DragonStormKoghdaSnariadLietitTaktProcedure {
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, 60);
+		}.start(world, 35);
 	}
 }

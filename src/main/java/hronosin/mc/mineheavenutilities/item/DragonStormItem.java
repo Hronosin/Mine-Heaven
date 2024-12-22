@@ -3,6 +3,8 @@ package hronosin.mc.mineheavenutilities.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.ProjectileWeaponItem;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
@@ -45,9 +47,36 @@ public class DragonStormItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				DragonStormEntity entityarrow = DragonStormEntity.shoot(world, entity, world.getRandom(), 6f, 0.5, 0);
-				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
-				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
+				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == Items.MAGMA_CREAM);
+				if (stack == ItemStack.EMPTY) {
+					for (int i = 0; i < entity.getInventory().items.size(); i++) {
+						ItemStack teststack = entity.getInventory().items.get(i);
+						if (teststack != null && teststack.getItem() == Items.MAGMA_CREAM) {
+							stack = teststack;
+							break;
+						}
+					}
+				}
+				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
+					DragonStormEntity entityarrow = DragonStormEntity.shoot(world, entity, world.getRandom(), 6f, 0.5, 0);
+					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
+					if (entity.getAbilities().instabuild) {
+						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
+					} else {
+						if (new ItemStack(Items.MAGMA_CREAM).isDamageableItem()) {
+							if (stack.hurt(1, world.getRandom(), entity)) {
+								stack.shrink(1);
+								stack.setDamageValue(0);
+								if (stack.isEmpty())
+									entity.getInventory().removeItem(stack);
+							}
+						} else {
+							stack.shrink(1);
+							if (stack.isEmpty())
+								entity.getInventory().removeItem(stack);
+						}
+					}
+				}
 				entity.releaseUsingItem();
 			}
 		}
