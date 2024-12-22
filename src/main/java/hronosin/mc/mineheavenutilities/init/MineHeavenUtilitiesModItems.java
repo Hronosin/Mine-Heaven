@@ -26,6 +26,7 @@ import hronosin.mc.mineheavenutilities.item.NecronCoreItem;
 import hronosin.mc.mineheavenutilities.item.NecronArmorItem;
 import hronosin.mc.mineheavenutilities.item.MistBreakerItem;
 import hronosin.mc.mineheavenutilities.item.LightbearingbenefactorItem;
+import hronosin.mc.mineheavenutilities.item.DragonStormItem;
 import hronosin.mc.mineheavenutilities.item.DefiledValkyrieItem;
 import hronosin.mc.mineheavenutilities.item.DancinItem;
 import hronosin.mc.mineheavenutilities.item.CrescentRoseItem;
@@ -75,6 +76,7 @@ public class MineHeavenUtilitiesModItems {
 	public static final RegistryObject<Item> LIGHTBEARINGBENEFACTOR = REGISTRY.register("lightbearingbenefactor", () -> new LightbearingbenefactorItem());
 	public static final RegistryObject<Item> CALL_OF_THE_FIRST = REGISTRY.register("call_of_the_first", () -> new CallOfTheFirstItem());
 	public static final RegistryObject<Item> BEELZEBUB = REGISTRY.register("beelzebub", () -> new BeelzebubItem());
+	public static final RegistryObject<Item> DRAGON_STORM = REGISTRY.register("dragon_storm", () -> new DragonStormItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

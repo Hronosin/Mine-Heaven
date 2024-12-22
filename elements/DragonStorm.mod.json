@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "uru",
+    "customModelName": "Normal",
+    "name": "Dragon Storm",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "block.furnace.fire_crackle"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 6.0,
+    "bulletDamage": 0.5,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "DragonStormKoghdaSnariadPriziemliaietsiaNaBlok"
+    },
+    "onBulletHitsEntity": {
+      "name": "DragonStormKoghdaSnariadPopadaietVSushchnost"
+    },
+    "onBulletFlyingTick": {
+      "name": "DragonStormKoghdaSnariadLietitTakt"
+    }
+  }
+}

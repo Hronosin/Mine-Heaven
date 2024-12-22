@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import hronosin.mc.mineheavenutilities.entity.UrnuyvkruvEntity;
+import hronosin.mc.mineheavenutilities.entity.DragonStormEntity;
 import hronosin.mc.mineheavenutilities.entity.BeelzebubEntity;
 import hronosin.mc.mineheavenutilities.entity.AntimatterorbEntity;
 import hronosin.mc.mineheavenutilities.MineHeavenUtilitiesMod;
@@ -30,6 +31,8 @@ public class MineHeavenUtilitiesModEntities {
 			EntityType.Builder.<AntimatterorbEntity>of(AntimatterorbEntity::new, MobCategory.MISC).setCustomClientFactory(AntimatterorbEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<BeelzebubEntity>> BEELZEBUB = register("projectile_beelzebub",
 			EntityType.Builder.<BeelzebubEntity>of(BeelzebubEntity::new, MobCategory.MISC).setCustomClientFactory(BeelzebubEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<DragonStormEntity>> DRAGON_STORM = register("projectile_dragon_storm",
+			EntityType.Builder.<DragonStormEntity>of(DragonStormEntity::new, MobCategory.MISC).setCustomClientFactory(DragonStormEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

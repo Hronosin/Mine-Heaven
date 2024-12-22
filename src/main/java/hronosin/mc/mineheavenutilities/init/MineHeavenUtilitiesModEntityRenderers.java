@@ -18,5 +18,6 @@ public class MineHeavenUtilitiesModEntityRenderers {
 		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.URNUYVKRUV.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.ANTIMATTERORB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.BEELZEBUB.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.DRAGON_STORM.get(), ThrownItemRenderer::new);
 	}
 }

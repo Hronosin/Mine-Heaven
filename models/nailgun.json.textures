@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "uuuu",
+        "1": "vpup",
+        "2": "pkup"
+      },
+      "name": "default"
+    }
+  }
+}
