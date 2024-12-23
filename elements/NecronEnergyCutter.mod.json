@@ -2,9 +2,9 @@
   "_fv": 39,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "ukrur",
-    "customModelName": "Normal",
+    "customModelName": "emerald_greatcleaver:default",
     "name": "Necron Energy Cutter",
     "specialInfo": [],
     "creativeTab": {

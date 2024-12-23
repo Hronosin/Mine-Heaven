@@ -27,7 +27,7 @@ public class CallOfTheFirstItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 18f;
+				return 23f;
 			}
 
 			public int getLevel() {

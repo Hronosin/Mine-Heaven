@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "mine_heaven_utilities:custom/emerald_greatcleaver",
   "textures": {
-    "layer0": "mine_heaven_utilities:items/ukrur"
+    "0": "mine_heaven_utilities:blocks/emerald_greatcleaver",
+    "particle": "mine_heaven_utilities:items/ukrur"
   }
 }

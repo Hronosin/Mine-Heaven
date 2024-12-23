@@ -55,7 +55,7 @@
     "movementSpeed": 0.30000000000000004,
     "armorBaseValue": 4.0,
     "trackingRange": 70,
-    "followRange": 40,
+    "followRange": 90,
     "health": 50,
     "xpAmount": 30,
     "waterMob": false,

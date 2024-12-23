@@ -131,7 +131,7 @@ public class InterdimensionalWandererEntity extends Zombie {
 		builder = builder.add(Attributes.MAX_HEALTH, 50);
 		builder = builder.add(Attributes.ARMOR, 4);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 4);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 40);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 90);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.19999999999999998);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.4);
 		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
