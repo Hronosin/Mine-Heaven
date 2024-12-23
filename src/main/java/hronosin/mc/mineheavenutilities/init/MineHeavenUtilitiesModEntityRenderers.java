@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import hronosin.mc.mineheavenutilities.client.renderer.InterdimensionalWandererRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MineHeavenUtilitiesModEntityRenderers {
 	@SubscribeEvent
@@ -19,5 +21,6 @@ public class MineHeavenUtilitiesModEntityRenderers {
 		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.ANTIMATTERORB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.BEELZEBUB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.DRAGON_STORM.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineHeavenUtilitiesModEntities.INTERDIMENSIONAL_WANDERER.get(), InterdimensionalWandererRenderer::new);
 	}
 }

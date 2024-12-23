@@ -7,6 +7,7 @@ package hronosin.mc.mineheavenutilities.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -77,6 +78,8 @@ public class MineHeavenUtilitiesModItems {
 	public static final RegistryObject<Item> CALL_OF_THE_FIRST = REGISTRY.register("call_of_the_first", () -> new CallOfTheFirstItem());
 	public static final RegistryObject<Item> BEELZEBUB = REGISTRY.register("beelzebub", () -> new BeelzebubItem());
 	public static final RegistryObject<Item> DRAGON_STORM = REGISTRY.register("dragon_storm", () -> new DragonStormItem());
+	public static final RegistryObject<Item> INTERDIMENSIONAL_WANDERER_SPAWN_EGG = REGISTRY.register("interdimensional_wanderer_spawn_egg",
+			() -> new ForgeSpawnEggItem(MineHeavenUtilitiesModEntities.INTERDIMENSIONAL_WANDERER, -16777216, -256, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

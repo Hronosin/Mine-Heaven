@@ -2167,6 +2167,21 @@
           "src/main/resources/data/mine_heaven_utilities/recipes/dragon_storm_craft.json"
         ]
       }
+    },
+    {
+      "name": "InterdimensionalWanderer",
+      "type": "livingentity",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interdimensional_wanderer",
+      "metadata": {
+        "files": [
+          "src/main/java/hronosin/mc/mineheavenutilities/client/renderer/InterdimensionalWandererRenderer.java",
+          "src/main/java/hronosin/mc/mineheavenutilities/entity/InterdimensionalWandererEntity.java",
+          "src/main/resources/assets/mine_heaven_utilities/models/item/interdimensional_wanderer_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2224,7 +2239,9 @@
       "item.mine_heaven_utilities.crescent_rose": "Crescent Rose",
       "item.mine_heaven_utilities.spearof_scarlet_butterflies": "Spear of Scarlet Butterflies",
       "block.mine_heaven_utilities.astral_infected_fence": "Astral infected Fence",
+      "item.mine_heaven_utilities.interdimensional_wanderer_spawn_egg": "Interdimensional Wanderer Spawn Egg",
       "key.mine_heaven_utilities.orb_of_destroy": "Orb Of Destroy",
+      "entity.mine_heaven_utilities.interdimensional_wanderer": "Interdimensional Wanderer",
       "item.mine_heaven_utilities.astral_armor_boots": "Astral Boots",
       "item.mine_heaven_utilities.lightbearingbenefactor": "Light-bearing benefactor",
       "block.mine_heaven_utilities.astral_infected_stairs": "Astral infected Stairs",

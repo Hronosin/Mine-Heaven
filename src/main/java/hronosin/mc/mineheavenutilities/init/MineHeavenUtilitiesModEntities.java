@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import hronosin.mc.mineheavenutilities.entity.UrnuyvkruvEntity;
+import hronosin.mc.mineheavenutilities.entity.InterdimensionalWandererEntity;
 import hronosin.mc.mineheavenutilities.entity.DragonStormEntity;
 import hronosin.mc.mineheavenutilities.entity.BeelzebubEntity;
 import hronosin.mc.mineheavenutilities.entity.AntimatterorbEntity;
@@ -33,6 +34,9 @@ public class MineHeavenUtilitiesModEntities {
 			EntityType.Builder.<BeelzebubEntity>of(BeelzebubEntity::new, MobCategory.MISC).setCustomClientFactory(BeelzebubEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<DragonStormEntity>> DRAGON_STORM = register("projectile_dragon_storm",
 			EntityType.Builder.<DragonStormEntity>of(DragonStormEntity::new, MobCategory.MISC).setCustomClientFactory(DragonStormEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<InterdimensionalWandererEntity>> INTERDIMENSIONAL_WANDERER = register("interdimensional_wanderer",
+			EntityType.Builder.<InterdimensionalWandererEntity>of(InterdimensionalWandererEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70).setUpdateInterval(3)
+					.setCustomClientFactory(InterdimensionalWandererEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,10 +45,12 @@ public class MineHeavenUtilitiesModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			InterdimensionalWandererEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(INTERDIMENSIONAL_WANDERER.get(), InterdimensionalWandererEntity.createAttributes().build());
 	}
 }
