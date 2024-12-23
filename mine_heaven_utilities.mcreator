@@ -2182,6 +2182,35 @@
           "src/main/resources/assets/mine_heaven_utilities/models/item/interdimensional_wanderer_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "NecronSoldier",
+      "type": "livingentity",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necron_soldier",
+      "metadata": {
+        "files": [
+          "src/main/java/hronosin/mc/mineheavenutilities/client/renderer/NecronSoldierRenderer.java",
+          "src/main/resources/assets/mine_heaven_utilities/models/item/necron_soldier_spawn_egg.json",
+          "src/main/java/hronosin/mc/mineheavenutilities/entity/NecronSoldierEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "NecronEnergyCutter",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necron_energy_cutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mine_heaven_utilities/models/item/necron_energy_cutter.json",
+          "src/main/java/hronosin/mc/mineheavenutilities/item/NecronEnergyCutterItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2230,6 +2259,7 @@
       "effect.mine_heaven_utilities.necro_rewind": "Rewind",
       "key.mine_heaven_utilities.susano_arrmor": "Susano Arrmor",
       "item.mine_heaven_utilities.uchiha_symbol_broken": "Uchiha Symbol (Broken)",
+      "item.mine_heaven_utilities.necron_soldier_spawn_egg": "Necron Soldier Spawn Egg",
       "item.mine_heaven_utilities.necron_core": "Necron Core",
       "item.mine_heaven_utilities.astral_armor_helmet": "Astral Helmet",
       "block.mine_heaven_utilities.astral_infected_leaves": "Astral infected Leaves",
@@ -2251,6 +2281,7 @@
       "item.mine_heaven_utilities.susano_leggings": "Susano Поножи",
       "item.mine_heaven_utilities.dancin": "Dancin",
       "block.mine_heaven_utilities.astral_infected_fence_gate": "Astral infected Fence Gate",
+      "item.mine_heaven_utilities.necron_energy_cutter": "Necron Energy Cutter",
       "subtitles.bury_the_light": "",
       "item.mine_heaven_utilities.sweater_weather.desc": "Converted for Mine Heaven",
       "item.mine_heaven_utilities.susano_boots": "Susano Ботинки",
@@ -2266,6 +2297,7 @@
       "effect.necro_rewind": "Rewind",
       "block.mine_heaven_utilities.astral_infected_button": "Astral infected Button",
       "item.mine_heaven_utilities.kanu_dimension": "Kanu Dimension Portal Igniter",
+      "entity.mine_heaven_utilities.necron_soldier": "Necron Soldier",
       "item.mine_heaven_utilities.bury_the_light": "Bury The Light",
       "effect.mine_heaven_utilities.suicide_mark": "Suicide Mark",
       "block.mine_heaven_utilities.astral_infected_planks": "Astral infected Planks",

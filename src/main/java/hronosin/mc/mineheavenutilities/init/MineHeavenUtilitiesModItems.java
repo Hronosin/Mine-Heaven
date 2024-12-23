@@ -23,6 +23,7 @@ import hronosin.mc.mineheavenutilities.item.SpearofScarletButterfliesItem;
 import hronosin.mc.mineheavenutilities.item.SeedOfTheWorldItem;
 import hronosin.mc.mineheavenutilities.item.PocketTeleporterItem;
 import hronosin.mc.mineheavenutilities.item.NecronStaffItem;
+import hronosin.mc.mineheavenutilities.item.NecronEnergyCutterItem;
 import hronosin.mc.mineheavenutilities.item.NecronCoreItem;
 import hronosin.mc.mineheavenutilities.item.NecronArmorItem;
 import hronosin.mc.mineheavenutilities.item.MistBreakerItem;
@@ -80,6 +81,9 @@ public class MineHeavenUtilitiesModItems {
 	public static final RegistryObject<Item> DRAGON_STORM = REGISTRY.register("dragon_storm", () -> new DragonStormItem());
 	public static final RegistryObject<Item> INTERDIMENSIONAL_WANDERER_SPAWN_EGG = REGISTRY.register("interdimensional_wanderer_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineHeavenUtilitiesModEntities.INTERDIMENSIONAL_WANDERER, -16777216, -256, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> NECRON_SOLDIER_SPAWN_EGG = REGISTRY.register("necron_soldier_spawn_egg",
+			() -> new ForgeSpawnEggItem(MineHeavenUtilitiesModEntities.NECRON_SOLDIER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> NECRON_ENERGY_CUTTER = REGISTRY.register("necron_energy_cutter", () -> new NecronEnergyCutterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
