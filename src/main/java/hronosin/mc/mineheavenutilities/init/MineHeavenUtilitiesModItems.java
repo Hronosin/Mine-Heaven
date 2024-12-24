@@ -82,7 +82,7 @@ public class MineHeavenUtilitiesModItems {
 	public static final RegistryObject<Item> INTERDIMENSIONAL_WANDERER_SPAWN_EGG = REGISTRY.register("interdimensional_wanderer_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineHeavenUtilitiesModEntities.INTERDIMENSIONAL_WANDERER, -16777216, -256, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> NECRON_SOLDIER_SPAWN_EGG = REGISTRY.register("necron_soldier_spawn_egg",
-			() -> new ForgeSpawnEggItem(MineHeavenUtilitiesModEntities.NECRON_SOLDIER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+			() -> new ForgeSpawnEggItem(MineHeavenUtilitiesModEntities.NECRON_SOLDIER, -16777216, -13369549, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> NECRON_ENERGY_CUTTER = REGISTRY.register("necron_energy_cutter", () -> new NecronEnergyCutterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
